@@ -1,0 +1,122 @@
+
+img.foto_de_perfil {
+    margin-left: 40%;
+    display: flex;
+    queries: auto;
+    height: 30%;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+img.icone_github {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+img.icone {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+img.icone_linkedin {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    margin-left: 15px;
+}
+img.icone_instagram {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    margin-left: 15px;
+}
+p.arroba {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+span.foot_line {
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+.foot_line {
+    display: block;
+    font-size: 14px;
+    padding: 12px 0;
+    text-align: center;
+}
+ul li a {
+    backdrop-filter: blur(4px);
+    background-color: var(--tom_10);
+    border: solid 1px var(--tom_50);
+    border-radius: 8px;
+    color: var(--color);
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    margin: 0 0 8px;
+    padding: 12px;
+    text-decoration: none;
+    transition: background 0.2s;
+    -webkit-backdrop-filter: blur(4px);
+}
+.tudo {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hashtag {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+button{
+    margin: auto;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.switch {
+    backdrop-filter: blur(4px);
+    background-color: var(--tom_10);
+    border: solid 1px var(--tom_50);
+    border-radius: 60px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    margin: auto;
+    width: 64px;
+    -webkit-backdrop-filter: blur(4px);
+}
+.slider button {
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--tom_50);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
