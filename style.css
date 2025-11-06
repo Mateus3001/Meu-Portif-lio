@@ -63,7 +63,7 @@ span.foot_line {
     text-align: center;
 }
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 ul li a {
     backdrop-filter: blur(4px);
